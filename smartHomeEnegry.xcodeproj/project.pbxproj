@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6401AE34262175D2006B3E2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6401AE33262175D2006B3E2C /* AppDelegate.swift */; };
+		6401AE36262175D2006B3E2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6401AE35262175D2006B3E2C /* SceneDelegate.swift */; };
+		6401AE38262175D2006B3E2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6401AE37262175D2006B3E2C /* ViewController.swift */; };
+		6401AE3B262175D2006B3E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6401AE39262175D2006B3E2C /* Main.storyboard */; };
+		6401AE3D262175D3006B3E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6401AE3C262175D3006B3E2C /* Assets.xcassets */; };
+		6401AE40262175D3006B3E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6401AE3E262175D3006B3E2C /* LaunchScreen.storyboard */; };
+		6401AE4B262175D4006B3E2C /* smartHomeEnegryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6401AE4A262175D4006B3E2C /* smartHomeEnegryTests.swift */; };
+		6401AE56262175D4006B3E2C /* smartHomeEnegryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6401AE55262175D4006B3E2C /* smartHomeEnegryUITests.swift */; };
+		6496AF97265EE38000CA926B /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AF96265EE38000CA926B /* logInViewController.swift */; };
+		6496AF98265EE38000CA926B /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AF96265EE38000CA926B /* logInViewController.swift */; };
+		6496AFB4265EEC2500CA926B /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFB3265EEC2500CA926B /* EnergyViewController.swift */; };
+		6496AFB5265EEC2500CA926B /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFB3265EEC2500CA926B /* EnergyViewController.swift */; };
+		6496AFBA265EEC2F00CA926B /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFB9265EEC2F00CA926B /* BillViewController.swift */; };
+		6496AFBB265EEC2F00CA926B /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFB9265EEC2F00CA926B /* BillViewController.swift */; };
+		6496AFC3265FDEFD00CA926B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6496AFC2265FDEFD00CA926B /* GoogleService-Info.plist */; };
+		6496AFC4265FDEFD00CA926B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6496AFC2265FDEFD00CA926B /* GoogleService-Info.plist */; };
+		6496AFCF265FF62A00CA926B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFCE265FF62A00CA926B /* UserViewController.swift */; };
+		6496AFD0265FF62A00CA926B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFCE265FF62A00CA926B /* UserViewController.swift */; };
+		6496AFD5265FF64800CA926B /* ApplianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFD4265FF64800CA926B /* ApplianceViewController.swift */; };
+		6496AFD6265FF64800CA926B /* ApplianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFD4265FF64800CA926B /* ApplianceViewController.swift */; };
+		6496AFDB265FF65500CA926B /* NewApplianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFDA265FF65500CA926B /* NewApplianceViewController.swift */; };
+		6496AFDC265FF65500CA926B /* NewApplianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFDA265FF65500CA926B /* NewApplianceViewController.swift */; };
+		6496AFE1265FF67100CA926B /* ViewApplianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFE0265FF67100CA926B /* ViewApplianceViewController.swift */; };
+		6496AFE2265FF67100CA926B /* ViewApplianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFE0265FF67100CA926B /* ViewApplianceViewController.swift */; };
+		6496AFE72661666100CA926B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFE62661666100CA926B /* profileViewController.swift */; };
+		6496AFE82661666100CA926B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AFE62661666100CA926B /* profileViewController.swift */; };
+		B021CCA6DDE8D7007927F2E2 /* Pods_smartHomeEnegry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EA05CBAE01CA6952B6EEA9 /* Pods_smartHomeEnegry.framework */; };
+		D0C969F01C7A78F9C661FF16 /* Pods_smartHomeEnegry_smartHomeEnegryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D3B045DA27462949407648 /* Pods_smartHomeEnegry_smartHomeEnegryUITests.framework */; };
+		FE0ED454A33478056ADF0542 /* Pods_smartHomeEnegryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9CB6EE8A731C5D47E1CA7B /* Pods_smartHomeEnegryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6401AE47262175D4006B3E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6401AE28262175D2006B3E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6401AE2F262175D2006B3E2C;
+			remoteInfo = smartHomeEnegry;
+		};
+		6401AE52262175D4006B3E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6401AE28262175D2006B3E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6401AE2F262175D2006B3E2C;
+			remoteInfo = smartHomeEnegry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B073DECFF88F1A3E55B7DD /* Pods-smartHomeEnegryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHomeEnegryTests.release.xcconfig"; path = "Target Support Files/Pods-smartHomeEnegryTests/Pods-smartHomeEnegryTests.release.xcconfig"; sourceTree = "<group>"; };
+		181D83AA7EA96FB43276C2A8 /* Pods-smartHomeEnegry-smartHomeEnegryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHomeEnegry-smartHomeEnegryUITests.debug.xcconfig"; path = "Target Support Files/Pods-smartHomeEnegry-smartHomeEnegryUITests/Pods-smartHomeEnegry-smartHomeEnegryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26D3B045DA27462949407648 /* Pods_smartHomeEnegry_smartHomeEnegryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartHomeEnegry_smartHomeEnegryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		397C370A9221E6BF6D6F829D /* Pods-smartHomeEnegryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHomeEnegryTests.debug.xcconfig"; path = "Target Support Files/Pods-smartHomeEnegryTests/Pods-smartHomeEnegryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		403025F86945E5D4A782DF3A /* Pods-smartHomeEnegry-smartHomeEnegryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHomeEnegry-smartHomeEnegryUITests.release.xcconfig"; path = "Target Support Files/Pods-smartHomeEnegry-smartHomeEnegryUITests/Pods-smartHomeEnegry-smartHomeEnegryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6401AE30262175D2006B3E2C /* smartHomeEnegry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartHomeEnegry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401AE33262175D2006B3E2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6401AE35262175D2006B3E2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6401AE37262175D2006B3E2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6401AE3A262175D2006B3E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6401AE3C262175D3006B3E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6401AE3F262175D3006B3E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6401AE41262175D3006B3E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6401AE46262175D4006B3E2C /* smartHomeEnegryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartHomeEnegryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401AE4A262175D4006B3E2C /* smartHomeEnegryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartHomeEnegryTests.swift; sourceTree = "<group>"; };
+		6401AE4C262175D4006B3E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6401AE51262175D4006B3E2C /* smartHomeEnegryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartHomeEnegryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401AE55262175D4006B3E2C /* smartHomeEnegryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartHomeEnegryUITests.swift; sourceTree = "<group>"; };
+		6401AE57262175D4006B3E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6496AF96265EE38000CA926B /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		6496AFB3265EEC2500CA926B /* EnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
+		6496AFB9265EEC2F00CA926B /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		6496AFC2265FDEFD00CA926B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6496AFCE265FF62A00CA926B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		6496AFD4265FF64800CA926B /* ApplianceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplianceViewController.swift; sourceTree = "<group>"; };
+		6496AFDA265FF65500CA926B /* NewApplianceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApplianceViewController.swift; sourceTree = "<group>"; };
+		6496AFE0265FF67100CA926B /* ViewApplianceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewApplianceViewController.swift; sourceTree = "<group>"; };
+		6496AFE62661666100CA926B /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		782439E437559F4851754FA4 /* Pods-smartHomeEnegry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHomeEnegry.debug.xcconfig"; path = "Target Support Files/Pods-smartHomeEnegry/Pods-smartHomeEnegry.debug.xcconfig"; sourceTree = "<group>"; };
+		94EA05CBAE01CA6952B6EEA9 /* Pods_smartHomeEnegry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartHomeEnegry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9CB6EE8A731C5D47E1CA7B /* Pods_smartHomeEnegryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartHomeEnegryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9819F80D20BBE27E935203C /* Pods-smartHomeEnegry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHomeEnegry.release.xcconfig"; path = "Target Support Files/Pods-smartHomeEnegry/Pods-smartHomeEnegry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6401AE2D262175D2006B3E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B021CCA6DDE8D7007927F2E2 /* Pods_smartHomeEnegry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6401AE43262175D4006B3E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0ED454A33478056ADF0542 /* Pods_smartHomeEnegryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6401AE4E262175D4006B3E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C969F01C7A78F9C661FF16 /* Pods_smartHomeEnegry_smartHomeEnegryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4AFF5DDCD2564A28BF94E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94EA05CBAE01CA6952B6EEA9 /* Pods_smartHomeEnegry.framework */,
+				26D3B045DA27462949407648 /* Pods_smartHomeEnegry_smartHomeEnegryUITests.framework */,
+				9C9CB6EE8A731C5D47E1CA7B /* Pods_smartHomeEnegryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6401AE27262175D2006B3E2C = {
+			isa = PBXGroup;
+			children = (
+				6401AE32262175D2006B3E2C /* smartHomeEnegry */,
+				6401AE49262175D4006B3E2C /* smartHomeEnegryTests */,
+				6401AE54262175D4006B3E2C /* smartHomeEnegryUITests */,
+				6401AE31262175D2006B3E2C /* Products */,
+				B397BC05A13533A047C294D9 /* Pods */,
+				2B4AFF5DDCD2564A28BF94E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6401AE31262175D2006B3E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6401AE30262175D2006B3E2C /* smartHomeEnegry.app */,
+				6401AE46262175D4006B3E2C /* smartHomeEnegryTests.xctest */,
+				6401AE51262175D4006B3E2C /* smartHomeEnegryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6401AE32262175D2006B3E2C /* smartHomeEnegry */ = {
+			isa = PBXGroup;
+			children = (
+				6401AE33262175D2006B3E2C /* AppDelegate.swift */,
+				6401AE35262175D2006B3E2C /* SceneDelegate.swift */,
+				6401AE37262175D2006B3E2C /* ViewController.swift */,
+				6496AFB3265EEC2500CA926B /* EnergyViewController.swift */,
+				6496AFB9265EEC2F00CA926B /* BillViewController.swift */,
+				6496AFCE265FF62A00CA926B /* UserViewController.swift */,
+				6496AFD4265FF64800CA926B /* ApplianceViewController.swift */,
+				6496AFDA265FF65500CA926B /* NewApplianceViewController.swift */,
+				6496AFE0265FF67100CA926B /* ViewApplianceViewController.swift */,
+				6496AFE62661666100CA926B /* profileViewController.swift */,
+				6496AF96265EE38000CA926B /* logInViewController.swift */,
+				6401AE39262175D2006B3E2C /* Main.storyboard */,
+				6401AE3C262175D3006B3E2C /* Assets.xcassets */,
+				6401AE3E262175D3006B3E2C /* LaunchScreen.storyboard */,
+				6401AE41262175D3006B3E2C /* Info.plist */,
+				6496AFC2265FDEFD00CA926B /* GoogleService-Info.plist */,
+			);
+			path = smartHomeEnegry;
+			sourceTree = "<group>";
+		};
+		6401AE49262175D4006B3E2C /* smartHomeEnegryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6401AE4A262175D4006B3E2C /* smartHomeEnegryTests.swift */,
+				6401AE4C262175D4006B3E2C /* Info.plist */,
+			);
+			path = smartHomeEnegryTests;
+			sourceTree = "<group>";
+		};
+		6401AE54262175D4006B3E2C /* smartHomeEnegryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6401AE55262175D4006B3E2C /* smartHomeEnegryUITests.swift */,
+				6401AE57262175D4006B3E2C /* Info.plist */,
+			);
+			path = smartHomeEnegryUITests;
+			sourceTree = "<group>";
+		};
+		B397BC05A13533A047C294D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				782439E437559F4851754FA4 /* Pods-smartHomeEnegry.debug.xcconfig */,
+				B9819F80D20BBE27E935203C /* Pods-smartHomeEnegry.release.xcconfig */,
+				181D83AA7EA96FB43276C2A8 /* Pods-smartHomeEnegry-smartHomeEnegryUITests.debug.xcconfig */,
+				403025F86945E5D4A782DF3A /* Pods-smartHomeEnegry-smartHomeEnegryUITests.release.xcconfig */,
+				397C370A9221E6BF6D6F829D /* Pods-smartHomeEnegryTests.debug.xcconfig */,
+				16B073DECFF88F1A3E55B7DD /* Pods-smartHomeEnegryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6401AE2F262175D2006B3E2C /* smartHomeEnegry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6401AE5A262175D4006B3E2C /* Build configuration list for PBXNativeTarget "smartHomeEnegry" */;
+			buildPhases = (
+				266AC80491BF3148F5689359 /* [CP] Check Pods Manifest.lock */,
+				6401AE2C262175D2006B3E2C /* Sources */,
+				6401AE2D262175D2006B3E2C /* Frameworks */,
+				6401AE2E262175D2006B3E2C /* Resources */,
+				BEB02D4D51DDBC3802E4FEEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartHomeEnegry;
+			productName = smartHomeEnegry;
+			productReference = 6401AE30262175D2006B3E2C /* smartHomeEnegry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6401AE45262175D4006B3E2C /* smartHomeEnegryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6401AE5D262175D4006B3E2C /* Build configuration list for PBXNativeTarget "smartHomeEnegryTests" */;
+			buildPhases = (
+				43BFEEFF096533C906E55CBF /* [CP] Check Pods Manifest.lock */,
+				6401AE42262175D4006B3E2C /* Sources */,
+				6401AE43262175D4006B3E2C /* Frameworks */,
+				6401AE44262175D4006B3E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6401AE48262175D4006B3E2C /* PBXTargetDependency */,
+			);
+			name = smartHomeEnegryTests;
+			productName = smartHomeEnegryTests;
+			productReference = 6401AE46262175D4006B3E2C /* smartHomeEnegryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6401AE50262175D4006B3E2C /* smartHomeEnegryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6401AE60262175D4006B3E2C /* Build configuration list for PBXNativeTarget "smartHomeEnegryUITests" */;
+			buildPhases = (
+				F7B7B09C99C14B98FBFCA6F9 /* [CP] Check Pods Manifest.lock */,
+				6401AE4D262175D4006B3E2C /* Sources */,
+				6401AE4E262175D4006B3E2C /* Frameworks */,
+				6401AE4F262175D4006B3E2C /* Resources */,
+				78D52E0AC4C6A82BC2F79B1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6401AE53262175D4006B3E2C /* PBXTargetDependency */,
+			);
+			name = smartHomeEnegryUITests;
+			productName = smartHomeEnegryUITests;
+			productReference = 6401AE51262175D4006B3E2C /* smartHomeEnegryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6401AE28262175D2006B3E2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6401AE2F262175D2006B3E2C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6401AE45262175D4006B3E2C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6401AE2F262175D2006B3E2C;
+					};
+					6401AE50262175D4006B3E2C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6401AE2F262175D2006B3E2C;
+					};
+				};
+			};
+			buildConfigurationList = 6401AE2B262175D2006B3E2C /* Build configuration list for PBXProject "smartHomeEnegry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6401AE27262175D2006B3E2C;
+			productRefGroup = 6401AE31262175D2006B3E2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6401AE2F262175D2006B3E2C /* smartHomeEnegry */,
+				6401AE45262175D4006B3E2C /* smartHomeEnegryTests */,
+				6401AE50262175D4006B3E2C /* smartHomeEnegryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6401AE2E262175D2006B3E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6401AE40262175D3006B3E2C /* LaunchScreen.storyboard in Resources */,
+				6401AE3D262175D3006B3E2C /* Assets.xcassets in Resources */,
+				6401AE3B262175D2006B3E2C /* Main.storyboard in Resources */,
+				6496AFC3265FDEFD00CA926B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6401AE44262175D4006B3E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6496AFC4265FDEFD00CA926B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6401AE4F262175D4006B3E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		266AC80491BF3148F5689359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartHomeEnegry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BFEEFF096533C906E55CBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartHomeEnegryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78D52E0AC4C6A82BC2F79B1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartHomeEnegry-smartHomeEnegryUITests/Pods-smartHomeEnegry-smartHomeEnegryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartHomeEnegry-smartHomeEnegryUITests/Pods-smartHomeEnegry-smartHomeEnegryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartHomeEnegry-smartHomeEnegryUITests/Pods-smartHomeEnegry-smartHomeEnegryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB02D4D51DDBC3802E4FEEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartHomeEnegry/Pods-smartHomeEnegry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartHomeEnegry/Pods-smartHomeEnegry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartHomeEnegry/Pods-smartHomeEnegry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B7B09C99C14B98FBFCA6F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartHomeEnegry-smartHomeEnegryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6401AE2C262175D2006B3E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6496AFCF265FF62A00CA926B /* UserViewController.swift in Sources */,
+				6496AF97265EE38000CA926B /* logInViewController.swift in Sources */,
+				6401AE38262175D2006B3E2C /* ViewController.swift in Sources */,
+				6496AFDB265FF65500CA926B /* NewApplianceViewController.swift in Sources */,
+				6401AE34262175D2006B3E2C /* AppDelegate.swift in Sources */,
+				6496AFE1265FF67100CA926B /* ViewApplianceViewController.swift in Sources */,
+				6496AFE72661666100CA926B /* profileViewController.swift in Sources */,
+				6496AFD5265FF64800CA926B /* ApplianceViewController.swift in Sources */,
+				6401AE36262175D2006B3E2C /* SceneDelegate.swift in Sources */,
+				6496AFB4265EEC2500CA926B /* EnergyViewController.swift in Sources */,
+				6496AFBA265EEC2F00CA926B /* BillViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6401AE42262175D4006B3E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6496AFD6265FF64800CA926B /* ApplianceViewController.swift in Sources */,
+				6496AFE2265FF67100CA926B /* ViewApplianceViewController.swift in Sources */,
+				6496AFE82661666100CA926B /* profileViewController.swift in Sources */,
+				6496AF98265EE38000CA926B /* logInViewController.swift in Sources */,
+				6496AFDC265FF65500CA926B /* NewApplianceViewController.swift in Sources */,
+				6496AFD0265FF62A00CA926B /* UserViewController.swift in Sources */,
+				6496AFBB265EEC2F00CA926B /* BillViewController.swift in Sources */,
+				6401AE4B262175D4006B3E2C /* smartHomeEnegryTests.swift in Sources */,
+				6496AFB5265EEC2500CA926B /* EnergyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6401AE4D262175D4006B3E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6401AE56262175D4006B3E2C /* smartHomeEnegryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6401AE48262175D4006B3E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6401AE2F262175D2006B3E2C /* smartHomeEnegry */;
+			targetProxy = 6401AE47262175D4006B3E2C /* PBXContainerItemProxy */;
+		};
+		6401AE53262175D4006B3E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6401AE2F262175D2006B3E2C /* smartHomeEnegry */;
+			targetProxy = 6401AE52262175D4006B3E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6401AE39262175D2006B3E2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6401AE3A262175D2006B3E2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6401AE3E262175D3006B3E2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6401AE3F262175D3006B3E2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6401AE58262175D4006B3E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6401AE59262175D4006B3E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6401AE5B262175D4006B3E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782439E437559F4851754FA4 /* Pods-smartHomeEnegry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C3222KT9Z;
+				INFOPLIST_FILE = smartHomeEnegry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.smartHomeEnegry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6401AE5C262175D4006B3E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9819F80D20BBE27E935203C /* Pods-smartHomeEnegry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C3222KT9Z;
+				INFOPLIST_FILE = smartHomeEnegry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.smartHomeEnegry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6401AE5E262175D4006B3E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397C370A9221E6BF6D6F829D /* Pods-smartHomeEnegryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C3222KT9Z;
+				INFOPLIST_FILE = smartHomeEnegryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.smartHomeEnegryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartHomeEnegry.app/smartHomeEnegry";
+			};
+			name = Debug;
+		};
+		6401AE5F262175D4006B3E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B073DECFF88F1A3E55B7DD /* Pods-smartHomeEnegryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C3222KT9Z;
+				INFOPLIST_FILE = smartHomeEnegryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.smartHomeEnegryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartHomeEnegry.app/smartHomeEnegry";
+			};
+			name = Release;
+		};
+		6401AE61262175D4006B3E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181D83AA7EA96FB43276C2A8 /* Pods-smartHomeEnegry-smartHomeEnegryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C3222KT9Z;
+				INFOPLIST_FILE = smartHomeEnegryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.smartHomeEnegryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartHomeEnegry;
+			};
+			name = Debug;
+		};
+		6401AE62262175D4006B3E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403025F86945E5D4A782DF3A /* Pods-smartHomeEnegry-smartHomeEnegryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C3222KT9Z;
+				INFOPLIST_FILE = smartHomeEnegryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.smartHomeEnegryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartHomeEnegry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6401AE2B262175D2006B3E2C /* Build configuration list for PBXProject "smartHomeEnegry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6401AE58262175D4006B3E2C /* Debug */,
+				6401AE59262175D4006B3E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6401AE5A262175D4006B3E2C /* Build configuration list for PBXNativeTarget "smartHomeEnegry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6401AE5B262175D4006B3E2C /* Debug */,
+				6401AE5C262175D4006B3E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6401AE5D262175D4006B3E2C /* Build configuration list for PBXNativeTarget "smartHomeEnegryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6401AE5E262175D4006B3E2C /* Debug */,
+				6401AE5F262175D4006B3E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6401AE60262175D4006B3E2C /* Build configuration list for PBXNativeTarget "smartHomeEnegryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6401AE61262175D4006B3E2C /* Debug */,
+				6401AE62262175D4006B3E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6401AE28262175D2006B3E2C /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>946576666514-hsedsgep4svkafq4t39sacuru0g1bnll.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.946576666514-hsedsgep4svkafq4t39sacuru0g1bnll</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDooszRnCZh7015KbOnNSpdpGkPthmQALM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>946576666514</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>abc.smartHomeEnegry</string>
+	<key>PROJECT_ID</key>
+	<string>shems-baeaa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shems-baeaa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:946576666514:ios:40b2a80c73874fec851b4b</string>
+	<key>DATABASE_URL</key>
+	<string>https://shems-baeaa-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

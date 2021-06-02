@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C7D1F29-800B-4D2F-9E42-576558822218"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1729C3A1-26D5-43B1-867D-D82F2D174829"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartHomeEnegry/BillViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1729C3A1-26D5-43B1-867D-D82F2D174829 - 2fedaf4289545257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartHomeEnegry.BillViewController.__deallocating_deinit"
+                  moduleName = "smartHomeEnegry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ritiksuryawanshi/Desktop/smartHomeEnegry/smartHomeEnegry/BillViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1729C3A1-26D5-43B1-867D-D82F2D174829 - 560aad87f8fc82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartHomeEnegry.BillViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; smartHomeEnegry.BillViewController"
+                  moduleName = "smartHomeEnegry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ritiksuryawanshi/Desktop/smartHomeEnegry/smartHomeEnegry/BillViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1729C3A1-26D5-43B1-867D-D82F2D174829 - 8bca27a0fdefc5f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartHomeEnegry.BillViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; smartHomeEnegry.BillViewController"
+                  moduleName = "smartHomeEnegry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ritiksuryawanshi/Desktop/smartHomeEnegry/smartHomeEnegry/BillViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "1729C3A1-26D5-43B1-867D-D82F2D174829 - 733a7012a9a6e838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartHomeEnegry.BillViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;smartHomeEnegry.BillViewController&gt;"
+                  moduleName = "smartHomeEnegry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ritiksuryawanshi/Desktop/smartHomeEnegry/smartHomeEnegry/BillViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1729C3A1-26D5-43B1-867D-D82F2D174829 - c7d5b674da3764a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartHomeEnegry.BillViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;smartHomeEnegry.BillViewController&gt;"
+                  moduleName = "smartHomeEnegry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ritiksuryawanshi/Desktop/smartHomeEnegry/smartHomeEnegry/BillViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "221">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
